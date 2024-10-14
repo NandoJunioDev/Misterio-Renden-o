@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage:{
+        'gramado-fundo-celular':"url('../Misterio-Renden-o/src/img/phots/Photos-celular/Banda_Gramado.jpeg')",
+        'quarto-fundo-pc':"url('../Misterio-Renden-o/src/img/phots/photo-pc/QuartoV1.jpeg')",
+      },
       screens:{
  
         'celular':{'max': '430px'},
