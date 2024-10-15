@@ -9,7 +9,7 @@
 
     <title>Minísterio Rendenção </title>
 </head>
-<body>
+<body class="bg-black   w-full h-screen  flex flex-row  justify-center items-center    ">
     <!--
     Cores a Ser Usada =>
     fonte a Ser Usada => 
@@ -25,34 +25,57 @@
     <header>
         <nav>
             <img src="" alt="">
-            <input type="radio" name="" id="radio">
+            
         </nav>
     </header>
      <!--Cabeçalho-->
      <!--apresentaçao-->
-    <section>
-        <div class="bg-gramado-fundo-celular w-52 h-72  ">
-            
-            
+    <div class=" my-0 mx-auto w-[800] h-[400] overflow-hidden  ">
+        <div class="slides w-[400%] h-[400px ] flex flex-row  ">   
 
-            
 
-            <div>
-                <div>
-
-                </div>
+            <!--radio-->
+            <input class="hidden" type="radio" name="radio-btn" id="radio1">
+            <input class="hidden" type="radio" name="radio-btn" id="radio2">
+            <input class="hidden" type="radio" name="radio-btn" id="radio3">
+            <input class="hidden" type="radio" name="radio-btn" id="radio4">
+            <!--Fim Radio-->
+            <!--Imagem Do slide-->
+            <div class="slide fist w-1/4 relative ">
+                <img class="w-[800px] " src="../img/phots/Photos-celular/Banda_Gramado.jpeg  " alt="1">
             </div>
+            <div class="slide ">
+                <img class="w-[800px]"  src="../img/phots/Photos-celular/Banda_Costa_Deck_Mar.jpeg" alt="2">
+            </div>
+            <div class="slide ">
+                <img class="w-[800px]" src="../img/phots/Photos-celular/CavaquinhoPalco.jpeg" alt="3">
+            </div>
+            <div class="slide ">
+                <img class="w-[800px] "  src="../img/phots/Photos-celular/Banda_Palco_Lateral.jpeg " alt="4">
+            </div>
+            <!-- Fim Slide Imagem-->
+             
+            <!--Navigation outo-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
         </div>
-        <div>
-            <!--icons-->
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-spotify"></i>
+
+        <div class="manual-navigation absolute w-[800] mt-[-40px] flex justify-center">
+            <label class="manual-btn1 border-4 p-5 cursor-pointer " for="radio1"></label>
+            <label class="manual-btn2 border-4" for="radio2"></label>
+            <label class="manual-btn3 border-4 " for="radio3"></label>
+            <label class="manual-btn4 border-4 " for="radio4"></label>
+        </div>
+        
 
 
-        </div>
-    </section>
+
+    </div>
     <main>
         <section> <!-- Biografia do grupo-->
             

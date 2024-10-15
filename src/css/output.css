@@ -570,15 +570,21 @@ video {
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 720px) {
   .container {
-    max-width: 650px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .container {
+    max-width: 1020px;
   }
 }
 
@@ -616,6 +622,36 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[-40\] {
+  margin-top: -40;
+}
+
+.mt-\[-40px\] {
+  margin-top: -40px;
+}
+
 .flex {
   display: flex;
 }
@@ -636,16 +672,133 @@ video {
   height: 100vh;
 }
 
-.h-72 {
-  height: 18rem;
+.h-\[\] {
+  height: ;
+}
+
+.h-\[800\] {
+  height: 800;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[px\] {
+  height: px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[720\] {
+  height: 720;
+}
+
+.h-\[720px\] {
+  height: 720px;
+}
+
+.h-\[400\] {
+  height: 400;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-screen {
   width: 100vw;
 }
 
-.w-52 {
-  width: 13rem;
+.w-\[\] {
+  width: ;
+}
+
+.w-\[10\] {
+  width: 10;
+}
+
+.w-\[1\] {
+  width: 1;
+}
+
+.w-\[1920\] {
+  width: 1920;
+}
+
+.w-\[1920px\] {
+  width: 1920px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[600\] {
+  width: 600;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[1200px\] {
+  width: 1200px;
+}
+
+.w-\[1500\] {
+  width: 1500;
+}
+
+.w-\[1500px\] {
+  width: 1500px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.w-\[800\] {
+  width: 800;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[400\] {
+  width: 400;
+}
+
+.w-\[400\%\] {
+  width: 400%;
+}
+
+.w-1\/4 {
+  width: 25%;
 }
 
 .shrink {
@@ -654,6 +807,11 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .rotate-180 {
@@ -670,8 +828,20 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-row {
   flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .overflow-hidden {
@@ -682,12 +852,41 @@ video {
   border-width: 1px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-none {
   border-style: none;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-gramado-fundo-celular {
-  background-image: url('../Misterio-Renden-o/src/img/phots/Photos-celular/Banda_Gramado.jpeg');
+  background-image: url('../img/phots/Photos-celular/Banda_Gramado.jpeg');
+}
+
+.bg-andre-anderson {
+  background-image: url('../img/phots/photo-pc/Andre_Anderson.1080png.png');
+}
+
+.bg-quarto-fundo-pc {
+  background-image: url('../img/phots/photo-pc/QuartoV1.jpeg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .italic {
@@ -698,12 +897,89 @@ video {
   text-decoration-line: underline;
 }
 
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .ring {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.drop-shadow-md {
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1020px) {
+  .pc\:w-screen {
+    width: 100vw;
+  }
+
+  .pc\:overflow-hidden {
+    overflow: hidden;
+  }
+
+  .pc\:bg-quarto-fundo-pc {
+    background-image: url('../img/phots/photo-pc/QuartoV1.jpeg');
+  }
+
+  .pc\:bg-andre-anderson {
+    background-image: url('../img/phots/photo-pc/Andre_Anderson.1080png.png');
+  }
+
+  .pc\:bg-cover {
+    background-size: cover;
+  }
+
+  .pc\:bg-local {
+    background-attachment: local;
+  }
+
+  .pc\:opacity-25 {
+    opacity: 0.25;
+  }
+
+  .pc\:transition {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .pc\:transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .pc\:transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
 }
