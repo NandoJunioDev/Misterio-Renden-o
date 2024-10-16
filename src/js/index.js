@@ -1,13 +1,10 @@
-const box  = document.getElementById("#conteiner")
-const image = document.querySelectorAll(".container img");
+let contador = 1;
+setInterval(function(){
+document.getElementById('Radio' + contador).checked=true
+contador++;
 
-let contador = 0;
-function slider (){
-    contador++;
-    
-    if (contador > image.length -1 ){
-        contador = 0;
-    }
-    box.style.transform = `translateX(${-contador * 600 }px)`;
+if(contador>4){
+    contador=1
 }
-setInterval(slider ,2000)
+
+}, 2000)
