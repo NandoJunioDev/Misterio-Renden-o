@@ -7,4 +7,4 @@ if(contador>4){
     contador=1
 }
 
-}, 2000)
+}, 4000)
