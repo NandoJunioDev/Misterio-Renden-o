@@ -18,6 +18,18 @@ module.exports = {
         'pc':'1020px',
 
       },
+      keyframes:{
+        paracima:{
+          '0%, 50%':{transform:'translateY(1000%)'},
+          
+          '95%':{transform:'translateY(0%)'}
+          
+        },
+
+      },
+      animation:{
+        paracima:'paracima 6s ease-in-out '
+      },
 
     },
   
