@@ -618,8 +618,20 @@ video {
   border-width: 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .bottom-\[45\.5\%\] {
@@ -654,6 +666,26 @@ video {
   top: 95%;
 }
 
+.top-\[0\%\] {
+  top: 0%;
+}
+
+.top-\[75\%\] {
+  top: 75%;
+}
+
+.bottom-\[\] {
+  bottom: ;
+}
+
+.bottom-\[20\] {
+  bottom: 20;
+}
+
+.bottom-\[20\%\] {
+  bottom: 20%;
+}
+
 .-z-20 {
   z-index: -20;
 }
@@ -666,6 +698,18 @@ video {
   z-index: 30;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.m-12 {
+  margin: 3rem;
+}
+
 .mx-\[10px\] {
   margin-left: 10px;
   margin-right: 10px;
@@ -673,6 +717,54 @@ video {
 
 .ml-\[10px\] {
   margin-left: 10px;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mt-44 {
+  margin-top: 11rem;
 }
 
 .box-border {
@@ -715,6 +807,10 @@ video {
   height: 100vh;
 }
 
+.h-3\/4 {
+  height: 75%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -737,6 +833,42 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .shrink {
@@ -769,6 +901,11 @@ video {
 
 .translate-y-\[25\%\] {
   --tw-translate-y: 25%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-\[50\%\] {
+  --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -810,6 +947,22 @@ video {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .overflow-hidden {
@@ -854,8 +1007,131 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#04C4D9\]\/50 {
+  background-color: rgb(4 196 217 / 0.5);
+}
+
+.bg-\[\#04C4D9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 196 217 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#083035\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 48 53 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#03282c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 40 44 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#03282cb9\] {
+  background-color: #03282cb9;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.px-\[50\%\] {
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pr-5 {
   padding-right: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.pt-52 {
+  padding-top: 13rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-\[50\%\] {
+  padding-top: 50%;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-24 {
+  padding-left: 6rem;
+}
+
+.pl-56 {
+  padding-left: 14rem;
+}
+
+.pl-32 {
+  padding-left: 8rem;
+}
+
+.pl-14 {
+  padding-left: 3.5rem;
+}
+
+.pt-\[30\%\] {
+  padding-top: 30%;
+}
+
+.pt-\[40\%\] {
+  padding-top: 40%;
+}
+
+.pt-96 {
+  padding-top: 24rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .italic {
