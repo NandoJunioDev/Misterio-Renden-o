@@ -787,7 +787,11 @@ video {
 }
 
 @keyframes paracima {
-  0%, 50% {
+  0%, 75% {
+    display: none;
+  }
+
+  0%, 10% {
     transform: translateY(1000%);
   }
 
@@ -797,7 +801,7 @@ video {
 }
 
 .animate-paracima {
-  animation: paracima 6s ease-in-out;
+  animation: paracima 3s ease-in-out;
 }
 
 .cursor-pointer {

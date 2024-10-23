@@ -20,7 +20,10 @@ module.exports = {
       },
       keyframes:{
         paracima:{
-          '0%, 50%':{transform:'translateY(1000%)'},
+          '0%, 75%':{display: 'none'},
+          '0%, 10%':{transform:'translateY(1000%)'},
+
+
           
           '95%':{transform:'translateY(0%)'}
           
@@ -28,7 +31,7 @@ module.exports = {
 
       },
       animation:{
-        paracima:'paracima 6s ease-in-out '
+        paracima:'paracima 3s ease-in-out '
       },
 
     },
