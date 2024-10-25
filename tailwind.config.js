@@ -34,6 +34,21 @@ module.exports = {
         paracima:'paracima 3s ease-in-out '
       },
 
+      fontFamily:{
+        "Roboto-slab":['Roboto-Slab' ],
+        Raleway:['Raleway'],
+      },
+      colors:{
+        "Azul-Claro":'#0388A6',
+        Azul:'#1AC6D9',
+        Verde:'#8EF229',
+        Laranja:'#F29829',
+        Amarelo:'#FDAC27',
+        "Branco-Gelo":'#F2F2F2',
+        Grafite:' #3F3D40',
+        Preto:'#022601',
+      }
+
     },
   
   },

@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face{
+        font-family: 'Roboto-Slab';
+    font-style: bold;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../Fonts/Raleway,Roboto_Slab (1)/Roboto_Slab/static/RobotoSlab-SemiBold.ttf") format('ttf');
+    }
+
+    @font-face{
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../Fonts/Raleway,Roboto_Slab (1)/Raleway/static/Raleway-Regular.ttf") format('ttf');
+    }
+}
