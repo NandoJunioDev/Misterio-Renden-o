@@ -700,52 +700,20 @@ video {
   margin-right: 10px;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .ml-\[10px\] {
   margin-left: 10px;
-}
-
-.mt-48 {
-  margin-top: 12rem;
-}
-
-.mt-72 {
-  margin-top: 18rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
-}
-
-.-mt-24 {
-  margin-top: -6rem;
 }
 
 .mt-24 {
   margin-top: 6rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .box-border {
@@ -917,6 +885,10 @@ video {
   overflow: hidden;
 }
 
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -960,6 +932,36 @@ video {
      object-fit: cover;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pr-5 {
   padding-right: 1.25rem;
 }
@@ -970,6 +972,18 @@ video {
 
 .pt-\[50\%\] {
   padding-top: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-Raleway {
@@ -995,6 +1009,36 @@ video {
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -1004,8 +1048,31 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#3F3D40\] {
+  --tw-text-opacity: 1;
+  color: rgb(63 61 64 / var(--tw-text-opacity));
+}
+
+.text-\[\#706d72\] {
+  --tw-text-opacity: 1;
+  color: rgb(112 109 114 / var(--tw-text-opacity));
+}
+
+.text-\[\#878489\] {
+  --tw-text-opacity: 1;
+  color: rgb(135 132 137 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .opacity-30 {
@@ -1014,10 +1081,6 @@ video {
 
 .opacity-85 {
   opacity: 0.85;
-}
-
-.opacity-100 {
-  opacity: 1;
 }
 
 .shadow-xl {
