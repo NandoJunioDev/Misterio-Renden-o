@@ -7,7 +7,9 @@ module.exports = {
         'gramado-fundo-celular':"url('../img/phots/Photos-celular/Banda_Gramado.jpeg')",
         'quarto-fundo-pc':"url('../img/phots/photo-pc/QuartoV1.jpeg')",
         'andre-anderson':"url('../img/phots/photo-pc/Andre_Anderson.1080png.png')",
+        'fundo-linhas':"url('../img/phots/Backup/pngwing.com.png')",
       },
+
       screens:{
  
         'celular':{'max': '430px'},
@@ -25,7 +27,7 @@ module.exports = {
 
 
           
-          '95%':{transform:'translateY(0%)'}
+          '95%':{transform:'translateY(0%)'},
           
         },
 
