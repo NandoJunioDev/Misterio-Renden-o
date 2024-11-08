@@ -732,6 +732,26 @@ video {
   display: none;
 }
 
+.size-80 {
+  width: 20rem;
+  height: 20rem;
+}
+
+.size-60 {
+  width: 15rem;
+  height: 15rem;
+}
+
+.size-7 {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.size-72 {
+  width: 18rem;
+  height: 18rem;
+}
+
 .h-1 {
   height: 0.25rem;
 }
