@@ -642,10 +642,6 @@ video {
   border-width: 0;
 }
 
-.static {
-  position: static;
-}
-
 .fixed {
   position: fixed;
 }
@@ -686,28 +682,12 @@ video {
   top: 95%;
 }
 
-.bottom-28 {
-  bottom: 7rem;
-}
-
-.bottom-96 {
-  bottom: 24rem;
-}
-
-.top-full {
-  top: 100%;
-}
-
 .-z-30 {
   z-index: -30;
 }
 
 .z-10 {
   z-index: 10;
-}
-
-.col-auto {
-  grid-column: auto;
 }
 
 .mx-10 {
@@ -718,6 +698,11 @@ video {
 .mx-\[10px\] {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-20 {
@@ -745,20 +730,12 @@ video {
   box-sizing: border-box;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
 
 .table {
   display: table;
-}
-
-.grid {
-  display: grid;
 }
 
 .hidden {
@@ -895,10 +872,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -963,14 +936,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-fundo-linhas {
-  background-image: url('../img/phots/Backup/pngwing.com.png');
-}
-
-.bg-repeat {
-  background-repeat: repeat;
 }
 
 .object-cover {
