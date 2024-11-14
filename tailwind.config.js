@@ -8,6 +8,7 @@ module.exports = {
         'quarto-fundo-pc':"url('../img/phots/photo-pc/QuartoV1.jpeg')",
         'andre-anderson':"url('../img/phots/photo-pc/Andre_Anderson.1080png.png')",
         'fundo-linhas':"url('../img/phots/Backup/pngwing.com.png')",
+        'fundo-ondas':"url('../PSD/Prancheta 1.png')"
       },
 
       screens:{
