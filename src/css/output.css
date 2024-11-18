@@ -606,9 +606,15 @@ video {
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 800px) {
   .container {
-    max-width: 850px;
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 1000px;
   }
 }
 
@@ -733,6 +739,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-32 {
   margin-bottom: 8rem;
 }
@@ -783,14 +793,6 @@ video {
 
 .mt-48 {
   margin-top: 12rem;
-}
-
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .box-border {
@@ -848,35 +850,6 @@ video {
   height: 100%;
 }
 
-.size-64 {
-  width: 16rem;
-  height: 16rem;
-}
-
-.size-max {
-  width: -moz-max-content;
-  width: max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.size-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.size-80 {
-  width: 20rem;
-  height: 20rem;
-}
-
-.size-40 {
-  width: 10rem;
-  height: 10rem;
-}
-
 .h-1 {
   height: 0.25rem;
 }
@@ -929,6 +902,10 @@ video {
   width: 20rem;
 }
 
+.w-\[1000px\] {
+  width: 1000px;
+}
+
 .w-\[15px\] {
   width: 15px;
 }
@@ -943,30 +920,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[px\] {
-  width: px;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-\[100\] {
-  width: 100;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
 }
 
 .shrink {
@@ -1050,10 +1003,6 @@ video {
   flex-wrap: wrap;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
 .content-center {
   align-content: center;
 }
@@ -1064,10 +1013,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-around {
@@ -1198,11 +1143,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-5 {
@@ -1414,20 +1354,30 @@ video {
   margin-left: -25%;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .celular\:hidden {
     display: none;
   }
 }
 
-@media (min-width: 720px) {
-  .tablet\:size-96 {
-    width: 24rem;
-    height: 24rem;
+@media (max-width: 1380px) {
+  .celularM\:hidden {
+    display: none;
+  }
+
+  .celularM\:size-72 {
+    width: 18rem;
+    height: 18rem;
   }
 }
 
-@media (min-width: 850px) {
+@media (max-width: 770px) {
+  .tabletM\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
   .pc\:bottom-\[12\.5\%\] {
     bottom: 12.5%;
   }

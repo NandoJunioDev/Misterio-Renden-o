@@ -13,12 +13,14 @@ module.exports = {
 
       screens:{
  
-        'celular':{'max': '430px'},
-        'celularM':{'max': '500px'},
-        'tabletM':{'max':'820'},
+        'celular':{'max': '440px'},
+        'celularM':{'max': '1380px'},
+        'tabletM':{'max':'770px'},
         'celular2':'200px',
         'tablet':'720px',
-        'pc':'850px',
+        'pc':'800px',
+        'pc-telas-menores':'1000px'
+
 
       },
       keyframes:{
