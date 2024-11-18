@@ -16,9 +16,9 @@ module.exports = {
         'celular':{'max': '430px'},
         'celularM':{'max': '500px'},
         'tabletM':{'max':'820'},
-        'celular':'200px',
+        'celular2':'200px',
         'tablet':'720px',
-        'pc':'1020px',
+        'pc':'850px',
 
       },
       keyframes:{
