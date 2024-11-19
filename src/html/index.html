@@ -11,7 +11,7 @@
 
     <title>Minísterio Rendenção </title>
 </head>
-<body class="bg-black  box-border  font-Roboto-slab  h-screen w-screen     ">
+<body class="bg-black  box-border  font-Roboto-slab  h-screen w-screen  overflow-x-hidden   ">
     <!--
     Cores a Ser Usada =>  {
     Azul claro => #0388A6
@@ -40,7 +40,7 @@
     
      <!--Cabeçalho-->
      <!--apresentaçao-->
-        <div class="content h-screen  w-full  rounded-lg pc:hidden   overflow-hidden absolute  left-1/2 -translate-x-1/2   shadow-xl shadow-black opacity-30   ">
+        <div class="content h-screen  w-full  rounded-lg pc:hidden   overflow-hidden absolute  left-1/2 -translate-x-1/2   shadow-xl shadow-black opacity-30 tabletM:hidden   ">
             <div class="slides flex flex-row w-[400%] h-screen   ">
                 <input class="radios hidden peer/Radio1  " type="radio" name="radio" id="Radio1" checked >
                 <input class="radios hidden peer/radio2 " type="radio" name="radio"   id="Radio2"   >
@@ -63,17 +63,17 @@
             </div>
         </div>
                             <!-- PC -->
-        <div class=" celular:hidden  bg-black/35 w-full h-28  fixed z-20    ">
+        <div class=" celular:hidden   bg-black/50 w-full h-28 tabletM:w-full fixed z-20    ">
             <nav class=" flex flex-row justify-evenly items-center  box-border   ">
-                <a class="text-white mx-2" href=""> Biografia</a>
-                <a class="text-white mx-2" href="">Integrantes</a>
+                <a class="text-white mx-2 font-bold text-xl   hover:animate-pulse hover:scale-125 hover:text-[#0087B7]  " href="#Biografia"> Biografia</a>
+                <a class="text-white mx-2 text-xl  hover:animate-pulse hover:scale-125 hover:text-[#0087B7] font-bold  " href="#Integrantes">Integrantes</a>
                 <a  href=""><img class="size-24" src="../img/phots/Backup/logo600w.png" alt=""></a>
-                <a class="text-white mx-2" href="">Albuns</a>
-                <a class="text-white mx-2 "  href="">Contatos</a>
+                <a class="text-white mx-2 text-xl  hover:animate-pulse hover:scale-125  hover:text-[#0087B7] font-bold    " href="#Albuns">Albuns</a>
+                <a class="text-white mx-2 text-xl  hover:animate-pulse hover:scale-125 hover:text-[#0087B7]  font-bold "  href="#Contato">Contatos</a>
             </nav>
 
         </div>                     
-        <div class="celular:hidden size-full opacity-25   "> <!-- Fundo-->
+        <div class="celular:hidden w-full opacity-25 tabletM:w-max   "> <!-- Fundo pc-->
             <video autoplay muted loop  class=" size-full "  >
                 <source src="../video/1117.mp4" type="">
             </video>
@@ -91,7 +91,7 @@
         
     </div>
            
-    <div class="  hidden  animate-paracima  absolute top-[95%] left-[50%]  translate-x-[-50%] box-border  ">
+    <div class="  hidden  animate-paracima  absolute top-[95%] left-[50%]  translate-x-[-50%] box-border tabletM:hidden  ">
         <nav  class="">
             <i class="fa-brands fa-instagram fa-beat-fade pr-5 anime " style=" animation-duration: 6s;   color: #ffffff;"></i>
             <i class="fa-brands fa-spotify fa-fade fa-xl text-white pr-5 " style="animation-duration: 6s;"></i >  
@@ -99,35 +99,35 @@
                 <i class="fa-brands fa-facebook fa-beat-fade pr-5 " style=" animation-duration: 6s;  color: #ffffff;"></i>          
         </nav>
     </div>
-    <div class=" pc:hidden w-full  h-24  fixed   z-10 backdrop-blur-lg    flex  justify-center items-center      bg-Grafite/75     ">
+    <div class=" pc:hidden w-full  h-24  fixed   z-10 backdrop-blur-lg    flex  justify-center items-center      bg-Grafite/75 tabletM:hidden     ">
         
                 
             <img class="  object-cover  w-1/4    animate-paracima  "  src="../img/phots/Backup/Sem Título-3-Recuperado.png" alt=" Logo Misterio Redenção" >
             
             
     </div>
-    <div class="  absolute  hidden top-1 translate-y-[25%] left-1/2 translate-x-[-25%]    ">
+    <div class="  absolute  hidden top-1 translate-y-[25%] left-1/2 translate-x-[-25%]  tabletM:hidden  ">
                 
         <img class="w-1/2  h-1/2  animate-paracima  "  src="../img/phots/Backup/Logo88w.png" alt=" Logo Misterio Redenção" >
 </div>
-<div class=" w-1/2 h-1/2 hidden  animate-paracima transition duration-500  absolute top-[60%]  translate-y-[-50%] left-[50%] translate-x-[-50%] z-10   "  > <!-- Logo Grande-->
+<div class=" w-1/2 h-1/2 hidden  animate-paracima transition duration-500  absolute top-[60%]  translate-y-[-50%] left-[50%] translate-x-[-50%] z-10   "  > <!-- Logo Grande--> <!--Off-->
     <img class="  drop-shadow-xl   "  src="../img/phots/Backup/logo600w.png" alt="">
     
 </div>
-<div class=" w-80   pt-[50%] flex   mx-10  justify-center items-center  content-center pc:hidden  "  > <!-- Logo Grande-->
+<div class=" w-80  tabletM:hidden  pt-[50%] flex   mx-10  justify-center items-center  content-center pc:hidden celular-android:-translate-x-6 "  > <!-- Logo Grande-->
     <img class="   drop-shadow-xl w-3/4  self-center  "  src="../img/phots/Backup/Sem Título-3-Recuperado.png" alt="">
     
 </div>
             <!-- Logo  Grande  Pc-->
-        <div class="celular:hidden absolute top-[50%] celularM:size-72  translate-y-[-50%] left-[50%] translate-x-[-50%] mt-10  ">
+        <div class="celular:hidden absolute top-[50%] celularM:size-72 tabletM:-translate-y-[175%] tabletM:size-80  translate-y-[-50%] left-[50%] translate-x-[-50%] mt-10 ta ">
         <img  src="../img/phots/Backup/Sem Título-3-Recuperado.png" alt="">
 
     </div>
-<div class=" absolute  top-[60%]  translate-y-[-50%] left-[60.6%] translate-x-[-50%] "> <!--Botao Play-->
+<div class=" absolute  top-[60%]  translate-y-[-50%] left-[60.6%] translate-x-[-50%] "> <!--Botao Play off -->
     <img class="hidden " width="64" height="64" src="https://img.icons8.com/external-bearicons-blue-bearicons/64/external-play-essential-collection-bearicons-blue-bearicons.png" alt="external-play-essential-collection-bearicons-blue-bearicons"/>
 </div>
                 <!-- Barra De Navegação-->
-<div class="  flex flex-row  justify-center items-center pc:hidden   ">
+<div class="  flex flex-row  justify-center items-center pc:hidden tabletM:hidden  ">
     <nav  class="self-center mt-48 ">
         <a href="https://www.instagram.com/ministerioredencao_oficial/" target="_blank"><i class="fa-brands fa-instagram fa-beat-fade pr-5 anime text-3xl  " style=" animation-duration: 6s;   color: #ffffff;"></i></a>
         <a href="https://open.spotify.com/intl-pt/artist/5nJh6WCkMide23KZfVnG86" target="_blank"><i class="fa-brands fa-spotify fa-fade fa-xl text-white pr-5 text-3xl  " style="animation-duration: 6s;"></i ></a>  
@@ -136,36 +136,36 @@
     </nav>
 </div>
                 <!-- barra De Navegação Pc-->
-    <div class=" celular:hidden absolute top-[50%] translate-y-[-50%] pl-14 flex flex-col    h-full justify-around items-center  ">   
-        <nav class=" flex flex-col w-full       " >
-            <a class="my-10 " href="https://www.instagram.com/ministerioredencao_oficial/" target="_blank"><i class="fa-brands fa-instagram fa-beat-fade pr-5 anime text-3xl  " style="    color: #ffffff;"></i></a>
-        <a class="my-10" href="https://open.spotify.com/intl-pt/artist/5nJh6WCkMide23KZfVnG86" target="_blank"><i class="fa-brands fa-spotify fa-fade fa-xl text-white pr-5 text-3xl  " ></i ></a>  
-            <a class="my-10 " href="https://www.youtube.com/@MinisterioRedencaoOficia-mw3ks" target="_blank"><i class="fa-brands fa-youtube fa-beat-fade pr-5 text-3xl  " style="    color: #ffffff;"></i></a>
-            <a class="my-10" href="https://www.facebook.com/profile.php?id=61559153137197&locale=pt_BR" target="_blank "><i class="fa-brands fa-facebook fa-beat-fade pr-5 text-3xl  " style="   color: #ffffff;"></i></a>      
+    <div class=" celular:hidden absolute top-[50%] translate-y-[-50%]  tabletM:-translate-y-[75%]  pl-14 flex flex-col    h-full justify-around items-center  ">   
+        <nav class=" flex flex-col w-full  text-wrap     " >
+            <a class="my-10 " href="https://www.instagram.com/ministerioredencao_oficial/" target="_blank"><i class="fa-brands fa-instagram  pr-5 anime text-3xl hover:animate-pulse hover:scale-125  " style="    color: #ffffff;"></i></a>
+        <a class="my-10" href="https://open.spotify.com/intl-pt/artist/5nJh6WCkMide23KZfVnG86" target="_blank"><i class="fa-brands fa-spotify  fa-xl text-white pr-5 text-3xl  hover:animate-pulse hover:scale-125 " ></i ></a>  
+            <a class="my-10 " href="https://www.youtube.com/@MinisterioRedencaoOficia-mw3ks" target="_blank"><i class="fa-brands fa-youtube  pr-5 text-3xl hover:animate-pulse hover:scale-125  " style="    color: #ffffff;"></i></a>
+            <a class="my-10" href="https://www.facebook.com/profile.php?id=61559153137197&locale=pt_BR" target="_blank "><i class="fa-brands fa-facebook  pr-5 text- hover:animate-pulse hover:scale-125 text-3xl  " style="   color: #ffffff;"></i></a>      
 
         </nav>
     </div>
 
 </header>
     <main class="flex flex-col   "  >
-        <section class=" flex flex-col justify-center items-center     "> <!-- Biografia do grupo-->
-            <div class=" flex flex-col  mt-24  justify-center items-center ml-4 pc:hidden  "> <!-- titulo Biografia-->
+        <section id="Biografia" class=" flex flex-col justify-center items-center     "> <!-- Biografia do grupo-->
+            <div class=" flex flex-col  mt-40  justify-center items-center ml-4 pc:hidden tabletM:hidden  "> <!-- titulo Biografia-->
                 <img src="../img/phots/Letras/ssss.png" alt="" class="opacity-100 self-center  ">
             </div>
                 <!-- Titulo  Biografia pc  -->
-            <div class="celular:hidden size-52 mt-20 pt-10    ">
+            <div class="celular:hidden size-52 mt-20 pt-10 tabletM:translate-x-[45%]   ">
                 <img  src="../img/phots/Letras/ssss.png" alt="">
             </div>     
 
-            <div class=" px-5  pc:hidden  "> <!-- foto  da biografia -->
+            <div class=" px-5  pc:hidden tabletM:hidden  "> <!-- foto  da biografia -->
                 
-                <img class=" ring-2 ring-offset-2 ring-offset-sky-500  "  src="../img/phots/Backup/QuartoV1.webp " alt="">
+                <img class=" ring-2 ring-offset-2 ring-offset-sky-500   "  src="../img/phots/Backup/QuartoV1.webp " alt="">
             </div>
                 <!-- Foto da Biografia pc-->
-            <div class="celular:hidden flex flex-row flex-wrap px-20   ">
-                <img class=" ring-offset-sky-500 ring-offset-2 ring-2    size-[33%]" src="../img/phots/Backup/QuartoV1.webp" alt="">
+            <div class="celular:hidden flex flex-row tabletM:flex-col tabletM:justify-center tabletM:items-center px-20 tabletM:translate-x-[12.50%]   ">
+                <img class=" ring-offset-sky-500 ring-offset-2 ring-2    size-[33%] tabletM:size-[100%] " src="../img/phots/Backup/QuartoV1.webp" alt="">
 
-                <p  class="text-[#878489]  text-lg font-Roboto-slab py-16 px-5  text-center text-wrap    ">
+                <p  class="text-[#878489]  text-lg font-Roboto-slab py-16 px-5  text-center text-wrap  tabletM:text-4xl   ">
                     O propósito pelo qual esse ministério foi criado foi evangelizar, levar a palavra de Deus e pregar as boas novas.
                     Maurício e Pr. Gaspar (fundador e ex-integrante), que outrora foram músicos no mundo por um período, se reencontraram agora em Cristo. Deus colocou em seus corações a missão de fazer o que sabiam de melhor: adorar ao Senhor em ritmo de pagode. Esse é um estilo musical bem cultural do Rio de Janeiro, que atrai muitas pessoas adeptas desse gênero.
                         Após orarem, eles juntaram outras peças e, assim, o Ministério Redenção foi se formando com os seguintes integrantes: André (cavaco), Diego (voz e violão), Anderson (surdo), Pr. Duda (pandeiro), Maurício (Reco) e, por último, Samuel (tam-tam), que integrou o ministério em 2024, completando essa formação.
@@ -192,33 +192,33 @@
             
             
             
-            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2 px-5 text-center pc:hidden " >
+            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2 px-5 text-center pc:hidden tabletM:hidden " >
                 Maurício e Pr. Gaspar (fundador e ex-integrante), que outrora foram músicos no mundo por um período, se reencontraram agora em Cristo. Deus colocou em seus corações a missão de fazer o que sabiam de melhor: adorar ao Senhor em ritmo de pagode. Esse é um estilo musical bem cultural do Rio de Janeiro, que atrai muitas pessoas adeptas desse gênero.
                 </p>
             
             
-            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2  px-5 text-center  pc:hidden   ">
+            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2  px-5 text-center  pc:hidden tabletM:hidden   ">
                 Após orarem, eles juntaram outras peças e, assim, o Ministério Redenção foi se formando com os seguintes integrantes: André (cavaco), Diego (voz e violão), Anderson (surdo), Pr. Duda (pandeiro), Maurício (Reco) e, por último, Samuel (tam-tam), que integrou o ministério em 2024, completando essa formação.
             </p>
             
-            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2  px-5 text-center  pc:hidden    ">
+            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2  px-5 text-center  pc:hidden  tabletM:hidden   ">
                 Nosso maior objetivo é levar a alegria, a palavra de Deus e, principalmente, a salvação às pessoas que necessitam.
             </p>
             
-            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2  px-5 text-center pc:hidden     ">
+            <p class="text-[#878489]  text-lg  font-Roboto-slab py-2  px-5 text-center pc:hidden  tabletM:hidden    ">
                 Firmamos um propósito com Deus de sempre, no último sábado de cada mês, realizar evangelismos nas ruas, praças e comunidades da região, levando o evangelho de Cristo aos sedentos.
             </p>
 
 
 
         </section>
-        <hr class="text-[#00F900]  w-full h-1  bg-[#0087B7] mt-40  blur-[1px]   ">
-        <section class=" flex flex-col flex-wrap justify-center items-center  bg-fundo-ondas bg-fixed      "    > <!-- Biografia de cada integrante -->
-            <div class=" flex flex-col  mt-24  justify-center items-center ml-4 pc:hidden   ">
+        <hr class="text-[#00F900]  w-full h-1  bg-[#0087B7] mt-40  blur-[1px] tabletM:hidden   ">
+        <section id="Integrantes"  class=" flex flex-col flex-wrap justify-center items-center  bg-fundo-ondas bg-cover bg-opacity-20 tabletM:bg-none     "    > <!-- Biografia de cada integrante -->
+            <div class=" flex flex-col  mt-24  justify-center items-center ml-4 pc:hidden tabletM:hidden  ">
                 <img src="../img/phots/Letras/Integrantes.webp" alt="" class="opacity-100 self-center  ">
                 
             </div>
-            <div class="size-72 my-10 pc:hidden flex-wrap "> <!-- Anderson-->
+            <div class="size-72 my-10 pc:hidden flex-wrap tabletM:hidden  "> <!-- Anderson-->
                 <div class="px-5 py-5  " > <!--Anderson-->
                     <div class=" px-5 py-5   ">
                         <img src="../img/phots/Backup/Homem_Da_PercuçaoE.webp" alt="">
@@ -229,7 +229,7 @@
                     
             </div>
         
-        <div class="size-72  my-20 pc:hidden  "> <!-- André-->
+        <div class="size-72  my-20 pc:hidden  tabletM:hidden   "> <!-- André-->
            <div class="px-5 py-5 ">       
                <div >
                    <img  src="../img/phots/Letras/Homem_Do_Cavaquinho_Anderson.webp" alt="">
@@ -240,7 +240,7 @@
            </div>
 
         </div>
-        <div class="size-72 my-10 pc:hidden   "> <!-- Diego-->
+        <div class="size-72 my-10 pc:hidden tabletM:hidden    "> <!-- Diego-->
             <div class="px-5 py-5  ">
                 <div>
                     <img src="../img/phots/Backup/Andre_ViolãoE.png" alt="">
@@ -254,7 +254,7 @@
             </div>
 
         </div> 
-        <div class="size-72 my-10 pc:hidden   "  > <!-- Duda-->
+        <div class="size-72 my-10 pc:hidden tabletM:hidden   "  > <!-- Duda-->
             <div  class="px-5 py-5 " >
                 <div  >
                     <img src="../img/phots/Backup/Duda_Olhando_Para_CameraE.webp" alt="">
@@ -264,7 +264,7 @@
             </div>
 
         </div>
-        <div class="size-72  my-10 pc:hidden "  > <!-- Mauricio-->
+        <div class="size-72  my-10 pc:hidden  tabletM:hidden  "  > <!-- Mauricio-->
             <div class="px-5 py-5 pc:hidden " >
                 <div>
                     <img src="../img/phots/Backup/Vocalista_Mauricio.png" alt="">
@@ -274,7 +274,7 @@
             </div>
 
         </div>
-        <div class="size-72 my-10  pc:hidden " > <!-- Samuel-->
+        <div class="size-72 my-10  pc:hidden tabletM:hidden   " > <!-- Samuel-->
             <div class="px-5 py-5 " >
                 <div>
                     <img src="../img/phots/Backup/Duda_PerfilE.webp" alt="">
@@ -296,8 +296,8 @@
 
         </div>
             <!-- Integrates pc-->
-        <div class="celular:hidden  flex flex-row flex-wrap w-[1000px] justify-center items-center "> 
-            <div class="size-60 rounded-full ml-5 mb-10  "> <!-- Anderson-->
+        <div class="celular:hidden  flex flex-row flex-wrap w-[1000px] justify-center items-center tabletM:mb-28 "> 
+            <div class="size-60 rounded-full ml-5 my-20    "> <!-- Anderson-->
                 <img class=" rounded-lg border-2 size-60  rounded-3xl    " src=" ../img/phots/Backup/Homem_Da_PercuçaoE.webp " alt=""> 
                 <h6 class=" font-bold text-white mt-3 text-center  "> Anderson Luiz </h6>
                 <p  class=" text-[#878489]   text-center"> Surdo </p>
@@ -341,18 +341,18 @@
 
         </section>
 
-        <hr class="text-[#00F900] w-full h-1  bg-[#0087B7] mt-40  blur-[1px]   ">
+        <hr class="text-[#00F900] w-full h-1  bg-[#0087B7] mt-40  blur-[1px] tabletM:hidden  ">
           <!-- Espotify e musicas-->
-           <section class=" bg-fundo-ondas bg-fixed ">
-                <div class="pc:hidden" > <!--Titulo de Albus e musica -->
+           <section id="Albuns" class=" bg-fundo-ondas bg-cover tabletM:bg-none tabletM:flex tabletM:flex-col tabletM:justify-center items-center  ">
+                <div class="pc:hidden tabletM:hidden" > <!--Titulo de Albus e musica -->
                     <img src="../img/phots/Letras/AlbunsE.webp" alt="">
                 </div>
                 <!-- Titulo de albus e musica pc-->
                  <div class="celular:hidden size-52 mt-20 pt-10 ml-[50%] translate-x-[-50%]  ">
                     <img src="../img/phots/Letras/AlbunsE.webp" alt="">
                  </div>
-                <div class=" px-5 my-5 my-5 mb-32 flex flex-col pc:w-96 pc:ml-[50%] pc:translate-x-[-50%]   justify-center items-center    ">
-                    <iframe class="self-center " style="border-radius:12px" src="https://open.spotify.com/embed/artist/65c0oWgaIKpB329HFV0ehu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <div class=" px-5 my-5 my-5 mb-32 flex flex-col pc:w-96 pc:ml-[50%] pc:translate-x-[-50%]   justify-center items-center  hover:scale-110   ">
+                    <iframe class="self-center tabletM:ml-52 " style="border-radius:12px" src="https://open.spotify.com/embed/artist/65c0oWgaIKpB329HFV0ehu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
                
            </section>
@@ -370,22 +370,22 @@
 
     
     
-        <footer> <!-- Contatos -->
+        <footer id="Contato" > <!-- Contatos -->
 
                             <!-- titulo Contato -->
-            <div class=" flex flex-col  mt-12   justify-center items-center ml-4 pc:hidden   "> 
+            <div class=" flex flex-col  mt-12   justify-center items-center ml-4 pc:hidden tabletM:hidden  "> 
                 <img src="../img/phots/Letras/contato.png" alt=""> 
                 
             </div>
 
                                 <!-- Titulo contato pc-->
 
-            <div class="celular:hidden size-52 mt-20 pt-10 ml-[50%] translate-x-[-50%] ">
+            <div class="celular:hidden size-52 mt-20 pt-10 ml-[50%] translate-x-[-50%]  tabletM:flex tabletM:flex-col tabletM:justify-center tabletM:items-center tabletM:translate-x-[]">
                     <img src=" ../img/phots/Letras/contato.png " alt="">
             </div>                    
 
 
-            <div class=" flex flex-col  ">
+            <div class=" flex flex-col tabletM:pl-10  ">
                 <h4 class=" text-[#0073A1] text-2xl pc:text-4xl pc:ml-10    py-4 my-4 font-extrabold  ml-5  "> Contatos Para Show </h4>
                 <a href="https://wa.me/21991633951" target="_blank"><span class="text-white  pc:text-2xl text-xl pc:ml-10 ml-5  hover:text-[#0091BA] " > (21) 99163-3951</a></span> 
                 <br>
@@ -393,8 +393,8 @@
                 
             </div>
                                             <!--Rodape-->
-                <hr class="text-[#00F900]  w-full h-1  bg-[#0087B7] mt-40 blur-[1px] " >
-            <div class="h-28 w-full  bg-fundo-ondas  bg-cover my-4  flex flex-row pc:hidden   ">
+                <hr class="text-[#00F900]  w-full h-1  bg-[#0087B7] mt-40 blur-[1px]  tabletM:hidden" >
+            <div class="h-28 w-full  bg-fundo-ondas  bg-cover my-4  flex flex-row pc:hidden tabletM:hidden  ">
                 <img class="w-1/3 pl-5 box-border pb-5 pc:hidden " src="../img/phots/Backup/Sem Título-3-Recuperado.png" alt=""> 
                 <span  class="text-white px-5 pc:hidden " > ▫️ 2024 Deselvolvido Por <a class="hover:text-[#0091BA]" href="https://github.com/NandoJunioDev" target="_blank">NandoJunioDev</a></span>
 
@@ -403,16 +403,16 @@
             </div>
 
                                     <!--rodape Pc-->
-            <div class="celular:hidden  w-full    bg-fundo-ondas bg-cover   my-4  flex flex-row   justify-around items-center  ">
-                <img class="size-48" src="../img/phots/Backup/Sem Título-3-Recuperado.png" alt="">
-                <nav  class=" flex flex-row      " >
-                    <a class="my-10 " href="https://www.instagram.com/ministerioredencao_oficial/" target="_blank"><i class="fa-brands fa-instagram fa-beat-fade pr-5 anime text-3xl  " style="    color: #ffffff;"></i></a>
-                <a class="my-10" href="https://open.spotify.com/intl-pt/artist/5nJh6WCkMide23KZfVnG86" target="_blank"><i class="fa-brands fa-spotify fa-fade fa-xl text-white pr-5 text-3xl  " ></i ></a>  
-                    <a class="my-10 " href="https://www.youtube.com/@MinisterioRedencaoOficia-mw3ks" target="_blank"><i class="fa-brands fa-youtube fa-beat-fade pr-5 text-3xl  " style="    color: #ffffff;"></i></a>
-                    <a class="my-10" href="https://www.facebook.com/profile.php?id=61559153137197&locale=pt_BR" target="_blank "><i class="fa-brands fa-facebook fa-beat-fade pr-5 text-3xl  " style="   color: #ffffff;"></i></a>      
+            <div class="celular:hidden  w-full    bg-fundo-ondas tabletM:bg-none bg-cover   my-4  flex flex-row   justify-around items-center tabletM:flex tabletM:flex-col tabletM:justify-center tabletM:items-center    ">
+                <img class="size-48 tabletM:ml-36" src="../img/phots/Backup/Sem Título-3-Recuperado.png" alt="">
+                <nav  class=" flex flex-row  tabletM:ml-36     " >
+                    <a class="my-10 " href="https://www.instagram.com/ministerioredencao_oficial/" target="_blank"><i class="fa-brands fa-instagram  pr-5  text-3xl hover:animate-pulse hover:scale-125   " style="    color: #ffffff;"></i></a>
+                <a class="my-10" href="https://open.spotify.com/intl-pt/artist/5nJh6WCkMide23KZfVnG86" target="_blank"><i class="fa-brands fa-spotify  fa-xl text-white pr-5 text-3xl hover:animate-pulse hover:scale-125  " ></i ></a>  
+                    <a class="my-10 " href="https://www.youtube.com/@MinisterioRedencaoOficia-mw3ks" target="_blank"><i class="fa-brands fa-youtube  pr-5 text-3xl hover:animate-pulse hover:scale-125  " style="    color: #ffffff;"></i></a>
+                    <a class="my-10" href="https://www.facebook.com/profile.php?id=61559153137197&locale=pt_BR" target="_blank "><i class="fa-brands fa-facebook  pr-5 text-3xl hover:animate-pulse hover:scale-125  " style="   color: #ffffff;"></i></a>      
         
                 </nav>
-                <span  class="text-white px-5  " > ▫️ 2024 Deselvolvido Por <a class="hover:text-[#0091BA]" href="https://github.com/NandoJunioDev" target="_blank">NandoJunioDev</a></span>
+                <span  class="text-white px-5  tabletM:ml-36 " > ▫️ 2024 Deselvolvido Por <a class="hover:text-[#0091BA]" href="https://github.com/NandoJunioDev" target="_blank">NandoJunioDev</a></span>
 
             </div>
             

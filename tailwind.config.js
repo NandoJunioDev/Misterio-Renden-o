@@ -15,11 +15,12 @@ module.exports = {
  
         'celular':{'max': '440px'},
         'celularM':{'max': '1380px'},
-        'tabletM':{'max':'770px'},
+        'tabletM':{'max':'834px'},
         'celular2':'200px',
         'tablet':'720px',
         'pc':'800px',
-        'pc-telas-menores':'1000px'
+        'pc-telas-menores':'1000px',
+        'celular-android':{'max':'376px'}
 
 
       },
