@@ -17,8 +17,8 @@ module.exports = {
         'celularM':{'max': '1380px'},
         'tabletM':{'max':'834px'},
         'celular2':'200px',
-        'tablet':'720px',
-        'pc':'800px',
+        'tablet':'700px',
+        'pc':'850px',
         'pc-telas-menores':'1000px',
         'celular-android':{'max':'376px'}
 

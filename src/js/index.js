@@ -8,3 +8,16 @@ if(contador>4){
 }
 
 }, 4000)
+
+
+                                                        /* animaçao do scroll */
+
+                                                        
+
+
+                                                                                                          
+
+
+
+
+
